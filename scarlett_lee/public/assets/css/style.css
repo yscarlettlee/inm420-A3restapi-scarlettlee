@@ -1,0 +1,167 @@
+/* Header */
+header {
+    background: linear-gradient(to right, #007bff, #ffc107);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling Nav Bar */
+.navbar {
+    background-color: #007bff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link.active {
+    color: yellow;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: yellow;
+}
+
+
+/* Styling Bootstrap Buttons */
+/* btn-seoncdary */
+.btn-secondary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.btn-secondary:hover {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Make Input Field Smaller */
+.form-control-sm {
+    max-width: 300px;
+}
+
+/* Change Colour of Input Field on Focus */
+#search-term:focus,
+#word-suggestion:focus {
+    background-color: lightyellow;
+    outline: none;
+}
+
+
+/* Font Awesome Icons (Create Space) */
+.icon-1 {
+    margin-right: 8px;
+}
+
+.icon-2 {
+    margin-right: 5px;
+}
+
+/* Make Image Responsive */
+#about-ud img {
+    max-width: 60%;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main Cat Image (Right) */
+main {
+    flex: 1 0 auto;
+    background-image: url("/assets/images/cat.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 150px;
+}
+
+/* Placing Footer at the Bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main */
+body {
+    background-color: #f8f9fa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Contents */
+/* Main-Left Side */
+/* About Urban Dictionary */
+#about-ud {
+    background-color: #fffff4;
+}
+
+#about-ud p {
+    font-size: 0.9rem;
+}
+
+/* Remember */
+#remember-note {
+    color: #888;
+    font-style: italic;
+}
+
+#remember {
+    color: red;
+    font-weight: bold;
+}
+
+/* Main-Right Side */
+/* Definition */
+#ud-definition {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+}
+
+/* Styling Footer */
+footer {
+    flex-shrink: 0;
+}
+
+footer {
+    padding: 20px;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Links in Footer */
+.social-link {
+    color: #fff;
+}
+
+.social-link:hover {
+    color: yellow;
+}
+
+/* Form in Footer (Suggest a Word) */
+.suggest-word {
+    margin-bottom: 15px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#word {
+    color: #ffc107;
+}
